@@ -201,7 +201,7 @@
             <artifactId>jna</artifactId>
             <version>4.1.1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/libs/jna.jar</systemPath>
+            <systemPath>${project.basedir}/lib/jna.jar</systemPath>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.miglayout/miglayout-swing -->
         <dependency>

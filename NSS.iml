@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.sun.jna:jna:4.1.1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/jna.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/jna.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
