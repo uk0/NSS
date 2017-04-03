@@ -8,7 +8,7 @@ public class FSClient {
 
     public static void start() throws  Exception{
 //        SocksServer.getInstance().start();//启动netty
-        String[] args = new String[]{"-min"};
+        String[] args = new String[]{"-b"};
         CommandLineParser parser = new DefaultParser();
         Options options = new Options();
         options.addOption("b", "back", false, "有此参数则运行CLI版本");
@@ -25,5 +25,6 @@ public class FSClient {
         boolean min=commandLine.hasOption("min");
 
         new ClientUI(visible,min);
+//        new ClientNoUI();
     }
 }

@@ -168,7 +168,7 @@ public class ClientUI implements ClientUII, WindowListener {
 
         rightPanel.add(mapPanel);
         //隐藏
-        rightPanel.setVisible(false);
+        rightPanel.setVisible(true);
 
         model = new MapRuleListModel();
         tcpMapRuleListTable = new MapRuleListTable(this, model);
@@ -246,14 +246,14 @@ public class ClientUI implements ClientUII, WindowListener {
         JPanel socket = new JPanel();
         socket.setLayout(new MigLayout("insets 3 0 5 2 "));
         mapPanel.add(socket, "align center,wrap");
-        JButton start_ss = createButton("Socket5:1081");
-        p9.add(start_ss);
-        start_ss.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                SocksServer.getInstance().start();
-            }
-        });
+//        JButton start_ss = createButton("Socket5:1081");
+//        p9.add(start_ss);
+//        start_ss.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                SocksServer.getInstance().start();
+//            }
+//        });
 
 
         JPanel pa = new JPanel();
@@ -409,14 +409,14 @@ public class ClientUI implements ClientUII, WindowListener {
         JButton button_save = createButton("Start");
         p4.add(button_save);
 
-        button_site = createButton("网站");
-        p4.add(button_site);
-        button_site.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                openUrl(homeUrl);
-            }
-        });
+//        button_site = createButton("网站");
+//        p4.add(button_site);
+//        button_site.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                openUrl(homeUrl);
+//            }
+//        });
 
         JButton button_exit = createButton("退出");
         p4.add(button_exit);
