@@ -1,7 +1,5 @@
 package  net.fs.netty;
 
-import java.net.ServerSocket;
-import java.net.Socket;
 
 /**
  * socksserver启动类
