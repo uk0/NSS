@@ -89,8 +89,9 @@ docker run -d --restart=always -e 'SS_PASSWORD=1111111111111111' -p 8338:8338/tc
 
 ```
 
+### FMTNSS 更新版本
 
-
+https://github.com/breakEval13/RMTNSS
  
 
 
