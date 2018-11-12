@@ -10,7 +10,6 @@ import net.fs.utils.MLog;
 import net.fs.utils.StringRandom;
 import net.fs.utils.Tools;
 import net.miginfocom.swing.MigLayout;
-import net.fs.netty.SocksServer;
 import org.pcap4j.core.Pcaps;
 
 import javax.swing.*;

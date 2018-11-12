@@ -1,1 +1,15 @@
-{"recent_address_list":["1.234.31.56","172.104.68.188","45.79.81.249","172.104.91.199"],"upload_speed":11915636,"download_speed":11915636,"server_port":150,"server_address":"1.234.31.56","protocal":"udp","socks5_port":1085,"auto_start":true}
+{
+  "recent_address_list": [
+    "172.2.2.2",
+    "172.2.2.1",
+    "172.2.2.3",
+    "12.22.31.56"
+  ],
+  "upload_speed": 834094,
+  "download_speed": 2263970,
+  "server_port": 150,
+  "server_address": "12.22.31.56",
+  "protocal": "udp",
+  "socks5_port": 1085,
+  "auto_start": false
+}

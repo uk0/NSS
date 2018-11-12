@@ -9,7 +9,7 @@ FinalSpeed是高速双边加速软件,可加速所有基于tcp协议的网络服
 ### 说明
 
 
-finalspeed作者开始卖收费版了，所以停止了免费版的更新，并且删除了所有代码。不过还好我fork了一份。。作为Openvz的救星，还是有不少人对finalspeed有需求的。
+Finalspeed作者开始卖收费版了，所以停止了免费版的更新，并且删除了所有代码。不过还好我fork了一份。。作为Openvz的救星，还是有不少人对finalspeed有需求的。
 
 
 github地址：https://github.com/zmatsh/NSS
@@ -24,7 +24,7 @@ github地址：https://github.com/zmatsh/NSS
 
 ### socket5
 
-tcpspeed 已经整合了socket5 ，finalspeed 没有整合，作为一个开发者我看不下去了。
+tcpspeed 已经整合了socket5 ，finalspeed 没有整合 这边进行了整合。
 
 NSS socket通讯部分采用 OSGI的方式集成的，配置信息在conf/config.xml内
 
@@ -75,20 +75,30 @@ docker run -d --restart=always -e 'SS_PASSWORD=1111111111111111' -p 8338:8338/tc
 
 ```json
 {
-    "recent_address_list": [
-        "服务器IP"
-    ],
-    "upload_speed": 2740596,
-    "download_speed": 2859752,
-    "server_port": fs暴露端口,
-    "server_address": "服务器IP",
-    "protocal": "udp",
-    "socks5_port": 1085,
-    "auto_start": true
+// 服务器地址
+  "recent_address_list": [
+    "172.2.2.2",
+    "172.2.2.1",
+    "172.2.2.3",
+    "12.22.31.56"
+  ],
+  "upload_speed": 834094,
+  "download_speed": 2263970,
+  "server_port": 150,
+  "server_address": "12.22.31.56",
+  "protocal": "udp",
+  "socks5_port": 1085,
+  "auto_start": false
 }
-
 ```
 
+# port_map.json
+
+```json
+   
+{"map_list":[{"listen_port":1085,"name":"fuckGFW","dst_port":8338}]}
+
+```
 
 
  
