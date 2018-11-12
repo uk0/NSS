@@ -92,7 +92,6 @@ docker run -d --restart=always -e 'SS_PASSWORD=1111111111111111' -p 8338:8338/tc
 }
 ```
 
-<<<<<<< HEAD
 # port_map.json
 
 ```json
@@ -100,9 +99,7 @@ docker run -d --restart=always -e 'SS_PASSWORD=1111111111111111' -p 8338:8338/tc
 {"map_list":[{"listen_port":1085,"name":"fuckGFW","dst_port":8338}]}
 
 ```
-=======
 ### FMTNSS 更新版本
->>>>>>> 082e55bbb9ce48781bb89313b79755b548a522c4
 
 https://github.com/breakEval13/RMTNSS
  
